@@ -58,17 +58,3 @@ Allure: Генератор отчётов для визуализации рез
 Таким образом, проект обеспечивает комплексный подход к проверке работоспособности сервиса Кинопоиск, 
 используя современные инструменты автоматического тестирования.
 
-Только UI-тесты: $ pytest -m ui
-Только API-тесты: $ pytest -m api
-Все тесты вместе: $ pytest
-
-pytest --alluredir=./reports
-allure serve reports
-
-danilovaxx86
-/Fdnj,ec***8/
-
-selenium
-requests
-pytest
-allure-pytest
